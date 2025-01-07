@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .menu-table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(187, 206, 110, 0.1);
+        }
+
+        .menu-table th, .menu-table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .menu-table th {
+            background-color: #333;
+            color: white;
+        }
+
+        .menu-table td img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .menu-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #a4bd71;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Restaurant Menu</h1>
+    <p>Explore our delicious dishes!</p>
+</header>
+
+<table class="menu-table">
+    <thead>
+        <tr>
+            <th>Dish Image</th>
+            <th>Dish Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Dish 1 -->
+        <tr>
+            <td><img src="spaghetti.jpeg" alt="Dish 1"></td>
+            <td>Spaghetti Carbonara</td>
+            <td class="price">$12.99</td>
+        </tr>
+        <!-- Dish 2 -->
+        <tr>
+            <td><img src="chickensalad.jpeg" alt="Dish 2"></td>
+            <td>Grilled Chicken Salad</td>
+            <td class="price">$9.99</td>
+        </tr>
+        <!-- Dish 3 -->
+        <tr>
+            <td><img src="beefburg.jpeg" alt="Dish 3"></td>
+            <td>Beef Burger</td>
+            <td class="price">$10.50</td>
+        </tr>
+        <!-- Dish 4 -->
+        <tr>
+            <td><img src="vegpizza.jpeg" alt="Dish 4"></td>
+            <td>Veggie Pizza</td>
+            <td class="price">$11.50</td>
+        </tr>
+        <!-- Dish 5 -->
+        <tr>
+            <td><img src="sushi.jpeg" alt="Dish 5"></td>
+            <td>Sushi Rolls</td>
+            <td class="price">$14.00</td>
+        </tr>
+        <!-- Dish 6 -->
+        <tr>
+            <td><img src="taco.jpeg" alt="Dish 6"></td>
+            <td>Chicken Tacos</td>
+            <td class="price">$8.50</td>
+        </tr>
+        <!-- Dish 7 -->
+        <tr>
+            <td><img src="friedrice.jpeg" alt="Dish 7"></td>
+            <td>Fried Rice</td>
+            <td class="price">$7.50</td>
+        </tr>
+        <!-- Dish 8 -->
+        <tr>
+            <td><img src="fishnchips.jpeg" alt="Dish 8"></td>
+            <td>Fish and Chips</td>
+            <td class="price">$13.50</td>
+        </tr>
+        <!-- Dish 9 -->
+        <tr>
+            <td><img src="steak.jpeg    " alt="Dish 9"></td>
+            <td>Steak Frites</td>
+            <td class="price">$19.99</td>
+        </tr>
+        <!-- Dish 10 -->
+        <tr>
+            <td><img src="lasagna.jpeg" alt="Dish 10"></td>
+            <td>Cheese Lasagna</td>
+            <td class="price">$12.00</td>
+        </tr>
+        <!-- Dish 11 -->
+        <tr>
+            <td><img src="pasta.jpeg" alt="Dish 11"></td>
+            <td>Pasta Primavera</td>
+            <td class="price">$11.00</td>
+        </tr>
+        <!-- Dish 12 -->
+        <tr>
+            <td><img src="ribs.jpeg" alt="Dish 12"></td>
+            <td>BBQ Ribs</td>
+            <td class="price">$16.50</td>
+        </tr>
+        <!-- Dish 13 -->
+        <tr>
+            <td><img src="salad.jpeg" alt="Dish 13"></td>
+            <td>Caesar Salad</td>
+            <td class="price">$8.00</td>
+        </tr>
+        <!-- Dish 14 -->
+        <tr>
+            <td><img src="stirfry.jpeg" alt="Dish 14"></td>
+            <td>Vegetable Stir-Fry</td>
+            <td class="price">$10.00</td>
+        </tr>
+        <!-- Dish 15 -->
+        <tr>
+            <td><img src="alfredo.jpeg" alt="Dish 15"></td>
+            <td>Chicken Alfredo</td>
+            <td class="price">$14.50</td>
+        </tr>
+        <!-- Dish 16 -->
+        <tr>
+            <td><img src="scampi.jpeg" alt="Dish 16"></td>
+            <td>Shrimp Scampi</td>
+            <td class="price">$15.00</td>
+        </tr>
+        <!-- Dish 17 -->
+        <tr>
+            <td><img src="parmesan.jpeg" alt="Dish 17"></td>
+            <td>Chicken Parmesan</td>
+            <td class="price">$13.00</td>
+        </tr>
+        <!-- Dish 18 -->
+        <tr>
+            <td><img src="eggplant.jpeg" alt="Dish 18"></td>
+            <td>Eggplant Parmesan</td>
+            <td class="price">$12.50</td>
+        </tr>
+        <!-- Dish 19 -->
+        <tr>
+            <td><img src="peking.jpeg" alt="Dish 19"></td>
+            <td>Peking Duck</td>
+            <td class="price">$18.00</td>
+        </tr>
+        <!-- Dish 20 -->
+        <tr>
+            <td><img src="lobster.jpeg" alt="Dish 20"></td>
+            <td>Lobster Roll</td>
+            <td class="price">$22.00</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

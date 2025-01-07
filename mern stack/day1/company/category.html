@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Categories - Ferris Wheel Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .ferris-wheel {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            margin: 50px auto;
+            border-radius: 50%;
+            border: 3px solid #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .category-container {
+            position: absolute;
+            top: 5%;
+            
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transform-origin: center center;
+            animation: rotate 10s linear infinite;
+        }
+
+        .category {
+            position: absolute; 
+            width: 200px;
+            height: 200px;
+            background-color: #ad6199;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 1rem;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .category:hover {
+            transform: scale(1.2);
+            background-color: #aa9da3;
+        }
+
+        /* Position categories around the Ferris wheel */
+        .category:nth-child(1) { transform: rotate(0deg) translateY(-180px); }
+        .category:nth-child(2) { transform: rotate(45deg) translateY(-180px); }
+        .category:nth-child(3) { transform: rotate(90deg) translateY(-180px); }
+        .category:nth-child(4) { transform: rotate(135deg) translateY(-180px); }
+        .category:nth-child(5) { transform: rotate(180deg) translateY(-180px); }
+        .category:nth-child(6) { transform: rotate(225deg) translateY(-180px); }
+        .category:nth-child(7) { transform: rotate(270deg) translateY(-180px); }
+        .category:nth-child(8) { transform: rotate(315deg) translateY(-180px); }
+
+        /* Animation for rotating the entire wheel */
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Robotics Product Categories</h1>
+    <p>Explore our robotic products arranged in a Ferris wheel layout!</p>
+</header>
+
+
+
+<div class="ferris-wheel">
+    <div class="category-container">
+        <!-- Category 1 -->
+        <div class="category">Industrial</div>
+        <!-- Category 2 -->
+        <div class="category">Service</div>
+        <!-- Category 3 -->
+        <div class="category">Healthcare</div>
+        <!-- Category 4 -->
+        <div class="category">AI Robotics</div>
+        <!-- Category 5 -->
+        <div class="category">Education</div>
+        <!-- Category 6 -->
+        <div class="category">Agriculture</div>
+        <!-- Category 7 -->
+        <div class="category">Logistics</div>
+        <!-- Category 8 -->
+        <div class="category">Autonomous</div>
+    </div>
+</div>
+
+</body>
+</html>

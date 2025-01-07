@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Products Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .product p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #28a745;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Robotics Products Showcase</h1>
+    <p>Explore the latest in robotics technology</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="pVSAukTJ.jpeg" alt="Robot Model 1">
+        <h3>Robot Model 1</h3>
+        <p>High-performance industrial robot for automation tasks.</p>
+        <p class="price">$1,500.00</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/250x150.png?text=Robot+Model+2" alt="Robot Model 2">
+        <h3>Robot Model 2</h3>
+        <p>Autonomous robot designed for home assistance and personal use.</p>
+        <p class="price">$800.00</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/250x150.png?text=Robot+Model+3" alt="Robot Model 3">
+        <h3>Robot Model 3</h3>
+        <p>Interactive educational robot for learning programming and robotics.</p>
+        <p class="price">$250.00</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/250x150.png?text=Robot+Model+4" alt="Robot Model 4">
+        <h3>Robot Model 4</h3>
+        <p>Robotic arm for precision tasks in laboratories and manufacturing.</p>
+        <p class="price">$2,000.00</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/250x150.png?text=Robot+Model+5" alt="Robot Model 5">
+        <h3>Robot Model 5</h3>
+        <p>Fully autonomous delivery robot designed for retail environments.</p>
+        <p class="price">$1,200.00</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Robotics Shop - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
