@@ -1,0 +1,9 @@
+>if armstrong
+>d to hex
+>factorial recursive
+>two strings anagrams
+>occurrence of each char in strings
+>sort set in asc by remov duplicates
+>two string concat vowels in first string with consonants of second string
+>add digits in number
+>fucking sort problem
